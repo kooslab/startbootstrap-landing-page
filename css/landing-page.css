@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb");
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -10,12 +13,13 @@ h5,
 h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-family: 'Varela Round', sans-serif;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-stress-programming.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,6 +40,7 @@ header.masthead .overlay {
 
 header.masthead h1 {
   font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -48,8 +53,22 @@ header.masthead h1 {
   }
 }
 
+.showcase {
+  font-family: 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum;
+}
+
+.showcase .card-text {
+  font-size: 2.5rem;
+}
+
+.showcase .lead {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
 .showcase .showcase-text {
-  padding: 3rem;
+  padding: 5rem;
+  line-height: 3rem;
 }
 
 .showcase .showcase-img {
@@ -59,13 +78,14 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 5rem;
   }
 }
 
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  font-family: 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum;
 }
 
 .features-icons .features-icons-item {

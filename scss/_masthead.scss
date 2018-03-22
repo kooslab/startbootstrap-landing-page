@@ -1,7 +1,7 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/bg-stress-programming.jpg') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -16,6 +16,7 @@ header.masthead {
   }
   h1 {
     font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
   }
   @media (min-width: 768px) {
     padding-top: 12rem;

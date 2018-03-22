@@ -1,6 +1,15 @@
 .showcase {
+  font-family: 'NanumGothic', '나눔고딕','NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', Dotum;
+  .card-text {
+    font-size: 2.5rem;
+  }
+  .lead {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
   .showcase-text {
-    padding: 3rem;
+    padding: 5rem;
+    line-height: 3rem;
   }
   .showcase-img {
     min-height: 30rem;
@@ -8,7 +17,7 @@
   }
   @media (min-width: 768px) {
     .showcase-text {
-      padding: 7rem;
+      padding: 5rem;
     }
   }
 }
