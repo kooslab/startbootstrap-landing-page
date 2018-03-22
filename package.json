@@ -12,6 +12,9 @@
         "template"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "scripts": {
+        "dev": "gulp dev"
+    },
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
         "email": "feedback@startbootstrap.com"

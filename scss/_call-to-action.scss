@@ -1,8 +1,9 @@
 .call-to-action {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/bg-laptop.jpeg') no-repeat center center;
   @include background-cover;
+  margin-top: 3rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
   .overlay {
@@ -13,5 +14,9 @@
     top: 0;
     left: 0;
     opacity: 0.3;
+  }
+  .inquiry {
+    height: 10rem;
+    margin-top: 1rem;
   }
 }
